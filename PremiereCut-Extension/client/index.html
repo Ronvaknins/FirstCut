@@ -19,18 +19,24 @@ governing permissions and limitations under the License.
 </head>
 <body>
 	<div></div>
-	<h1>PremiereCut</h1>
+	<img src="img/PremiereCut_logo.gif" alt="" id="logoimg">
 	<!-- <input type="file" accept=".csv"> -->
 	<div id="drop-area">
 		<input type="file" id="file-input" accept=".csv">
-		<p>Drag and drop CSV file here, or click to Choose File.</p>
+		<p>Drag and drop CSV file here,<br> or click to Choose File.</p>
 	</div>
   
-	<!-- 1) A div with buttons for different export types -->
 	<p></p>
-	<div id="button-group">
-		<button id="run-btn" class="btn btn-primary btn-block">Run</button>
+	<div class="btn-container">
+		<div class="btn-center">
+			<button id="run-btn">Run</button>
+		</div>
 	</div>
+	<div id="progress-container">
+		<div id="pBar">0%</div>
+	</div>
+	<div id="fnameProcessing"></div>
+	<div id="snackbar"></div>
 
 	<!-- 2) Your scripts, including CEP's CSInterface.js library -->
 	<script type="text/javascript" src="js/lib/CSInterface.js"></script>

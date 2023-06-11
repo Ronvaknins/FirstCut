@@ -42,46 +42,55 @@ runButton.addEventListener('click', function(){
   // console.log(typeof finaldataArray);
   console.log("Running");
   // alert(finaldataArray[0]);
-  RunCut();
+  finaldataArray.length == 0 ? customAlerts("Video Script csv file not chosen","red"):RunCut();
+  // if(finaldataArray.length == 0)
+  // {
+    
+  // }
+  // else{
+    
+  // }
+  // console.log(finaldataArray);
+  
   
   // csInterface.evalScript(`alert("${finaldataArray[0]}")`);
 
 }, false);
 
 async function RunCut() {
-  for (let index = 0; index < finaldataArray.length; index++) {
+  var pbar = document.getElementById("pBar");
+  var fnameProcessing = document.getElementById("fnameProcessing");
+  var numCuts = finaldataArray.length;
+  for (let index = 0; index < numCuts; index++) { 
     var status;
-    // console.log(finaldataArray);
-    // console.log(finaldataArray[index]);
-    console.log(JSON.stringify(finaldataArray[index]));
-    await runEvalScript('processArray('+JSON.stringify(finaldataArray[index])+')').then(async function(res){
+    document.getElementById("progress-container").style.visibility = "visible";
+    fnameProcessing.innerHTML = "Processing " + finaldataArray[index].Video;
+    // console.log(JSON.stringify(finaldataArray[index]));
+    await runEvalScript('processScriptCuts('+JSON.stringify(finaldataArray[index])+')').then(async function(res){
       //promise result should retrun string with true | false and a message if false in this struct "false,{error_msg}"
       status = await res;
-      console.log(res);
+      // console.log(res);
     });
     console.log(status);
-    // var succeded = Boolean(eval(status.split(",")[0]));
-    // if(!succeded)
-    // {
-    //   alert(status.split(",")[1]);
-    //   break;
-    // }
+    var barWidth = ((index+1) / numCuts)*100 + "%";
+    pbar.style.width = barWidth;
+    pbar.innerHTML = barWidth;
+    var succeded = Boolean(eval(status.split(",")[0]));
+    if(!succeded)
+    {
+      customAlerts(status.split(",")[1],"red");
+      break;
+    }
   }
-  // csInterface.evalScript('processArray(' + JSON.stringify(finaldataArray) + ')');
-
-	// csInterface.evalScript(`exportFile("${myJSON}")`);
+  customAlerts("All Done!","green");
 }
+
 
 function runEvalScript(script) {
   return new Promise(function(resolve, reject){
       csInterface.evalScript(script, resolve);
   });
 }
-
-
-
-
-
 
 
 // Get the necessary DOM elements
@@ -132,14 +141,6 @@ function handleDrop(event) {
   }
 }
 
-// function handleFiles() {
-//   var fileList = fileInput.files;
-//   // Process the selected files here
-//   var reader = new FileReader();
-//   reader.readAsText(fileInput.files[0]);
-//   console.log(fileInput.files[0]);
-//   console.log(fileList);
-// }
 
 
 function handleFile(event) {
@@ -154,6 +155,8 @@ function handleFile(event) {
   };
 
   reader.readAsText(file);
+
+  customAlerts("File "+event.target.files[0].name+" loaded","green");
 }
 
 function parseCSV(csv) {
@@ -176,3 +179,14 @@ function parseCSV(csv) {
   return result;
 }
 
+
+function customAlerts(msg,color) {
+  // Get the snackbar DIV
+  var x = document.getElementById("snackbar");
+  x.innerHTML = msg;//insert custom message
+  // Add the "show" class to DIV
+  x.style.backgroundColor = color;//define the color of the background red means error
+  x.className = "show";
+  // After 3 seconds, remove the show class from DIV
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
