@@ -93,8 +93,8 @@ background-color: lightgray;
 	text-align: center;
 }
 
-/* The snackbar - position it at the bottom and in the middle of the screen */
-#snackbar {
+/* The toaster - position it at the bottom and in the middle of the screen */
+#toaster {
 	visibility: hidden; /* Hidden by default. Visible on click */
 	min-width: 250px; /* Set a default minimum width */
 	margin-left: -142px; /* Divide value of min-width by 2 */
@@ -105,23 +105,23 @@ background-color: lightgray;
 	padding: 16px; /* Padding */
 	position: fixed; /* Sit on top of the screen */
 	z-index: 1; /* Add a z-index if needed */
-	left: 50%; /* Center the snackbar */
+	left: 50%; /* Center the toaster */
 	bottom: 30px; /* 30px from the bottom */
 	font-size: 10px;
 	
 
   }
   
-  /* Show the snackbar when clicking on a button (class added with JavaScript) */
-  #snackbar.show {
-	visibility: visible; /* Show the snackbar */
-	/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  /* Show the toaster when clicking on a button (class added with JavaScript) */
+  #toaster.show {
+	visibility: visible; /* Show the toaster */
+	/* Add animation: Take 0.5 seconds to fade in and out the toaster.
 	However, delay the fade out process for 2.5 seconds */
 	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
 	animation: fadein 0.5s, fadeout 0.5s 2.5s;
   }
   
-  /* Animations to fade the snackbar in and out */
+  /* Animations to fade the toaster in and out */
   @-webkit-keyframes fadein {
 	from {bottom: 0; opacity: 0;}
 	to {bottom: 30px; opacity: 1;}
