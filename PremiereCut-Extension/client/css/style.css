@@ -108,8 +108,6 @@ background-color: lightgray;
 	left: 50%; /* Center the toaster */
 	bottom: 30px; /* 30px from the bottom */
 	font-size: 10px;
-	
-
   }
   
   /* Show the toaster when clicking on a button (class added with JavaScript) */
@@ -149,6 +147,5 @@ background-color: lightgray;
     margin-right: auto;
 	font-size: 10px;
 	text-decoration: none;
-	top: 90%;	
-	
+
   }
