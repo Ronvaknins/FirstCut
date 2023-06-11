@@ -141,3 +141,14 @@ background-color: lightgray;
 	from {bottom: 30px; opacity: 1;}
 	to {bottom: 0; opacity: 0;}
   }
+  #footer{
+	display: table;
+	color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 10px;
+	text-decoration: none;
+	top: 90%;	
+	
+  }
