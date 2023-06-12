@@ -56,6 +56,7 @@ this will be filed by the video script writer.
 - [ ] Create MacOS installer
 - [ ] add option to open new sequence automatically if there isn't any seqeuence in the project
 - [ ] add exception when the the frames timecode is out of the range of the fps - 1 , right now it work as "cyclic" for example if the fps=25 so if the TC_IN is 00:00:20:**51** it will just show as 00:00:22:01 [ 1second = 25fps -> 25fps + 25fps = 50 = 2seconds +  1frame (51frames % 25fps = 1) -> should add 2 seconds and 1 frame ]
+- [] approved by Adobe Exchange
 
 ## Resources
 - https://github.com/Adobe-CEP/

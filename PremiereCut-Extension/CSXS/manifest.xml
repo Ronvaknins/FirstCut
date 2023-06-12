@@ -16,7 +16,7 @@ governing permissions and limitations under the License.
   </ExtensionList>
   <ExecutionEnvironment>
     <HostList>
-      <Host Name="PPRO" Version="[16.0,99.9]" />
+      <Host Name="PPRO" Version="[15.0,99.9]" />
     </HostList>
     <LocaleList>
       <Locale Code="All" />
