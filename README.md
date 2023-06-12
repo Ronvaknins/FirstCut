@@ -8,11 +8,11 @@ PremiereCut is an Adobe Premiere extension that automatically cut the prime cuts
 with **PremiereCut** the video editor can save time that is wasted on building the base of the video article , instead of going to each video file and finding the IN point and OUT point then inserting it to a sequence he will import a CSV template file that the journalist will build the script in it, and will automatically build the base of the video article by marking the IN and OUT point of each file listed in the CSV file and inserting it to the current sequence in premiere.
 ## How to use?
 ### install through GitHub:
-[Windows Install x64](https://localhost) \
+**Windows:** [Install x64](https://localhost) \
 or manually copy  [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to: \
 `C:\Program Files\Common Files\Adobe\CEP\extensions`
 
-MacOS copy [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to (can replace 2022 to other higher versions):\
+**MacOS:** copy [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to (can replace 2022 to other higher versions):\
 `/Applications/Adobe\ Premiere\ Pro\ 2022/Adobe\ Premiere\ Pro\ 2022.app/Contents/CEP/extensions/` 
 ### Install through Adobe Creative Cloud:
 **waiting for adobe to approve**
@@ -58,10 +58,11 @@ this will be filed by the video script writer.
 - [ ] add exception when the the frames timecode is out of the range of the fps - 1 , right now it work as "cyclic" for example if the fps=25 so if the TC_IN is 00:00:20:**51** it will just show as 00:00:22:01 [ 1second = 25fps -> 25fps + 25fps = 50 = 2seconds +  1frame (51frames % 25fps = 1) -> should add 2 seconds and 1 frame ]
 
 ## Resources
-- 
--
--
--
--
--
+- https://github.com/Adobe-CEP/
+- https://community.adobe.com/
+- https://www.geeksforgeeks.org/
+- https://youtu.be/LGabsGWvrUY
+- https://ppro-scripting.docsforadobe.dev/
+- https://youtu.be/CnYDiWxShR4
+- https://fonts.google.com/specimen/Rubik+Glitch
 
