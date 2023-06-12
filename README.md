@@ -4,9 +4,16 @@
 
 
 
-PremiereCut is an Adobe Premiere extension that automatically cut the prime cuts from a video script provided by a scripter/journlist/etc., in some productions like news for example the video editor will receive a video script from the journalist that will contain the content of the video article , such as the selected cuts that the journalist picked (basically voice overs and not visuals), then the video editor will first build the base of the video article which is the selected cuts that journalist picked and afterward will start covering it with visuals and etc.
+PremiereCut is an Adobe Premiere extension that automatically cut the prime cuts from a video script provided by a scripter/journlist/etc., in some productions like news for example the video editor will receive a video script from the journalist that will contain the content of the video article , such as the selected cuts that the journalist picked (basically voice overs and not visuals), then the video editor will first build the base of the video article which is the selected cuts that journalist picked and afterward will start covering it with visuals and etc.\
 with **PremiereCut** the video editor can save time that is wasted on building the base of the video article , instead of going to each video file and finding the IN point and OUT point then inserting it to a sequence he will import a CSV template file that the journalist will build the script in it, and will automatically build the base of the video article by marking the IN and OUT point of each file listed in the CSV file and inserting it to the current sequence in premiere.
-
+## How to use?
+### install through GitHub:
+[Windows Install x64](https://localhost) \
+or \
+MacOS copy [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to:\
+`/Applications/Adobe\ Premiere\ Pro\ 2022/Adobe\ Premiere\ Pro\ 2022.app/Contents/CEP/extensions/` \
+### Install through Adobe Creative Cloud:
+**waiting for adobe to approve**
 
 
 ## DataBase Format
