@@ -23,6 +23,7 @@ after the install complete open **Adobe Premiere Pro** :
 - Click on the top bar of premiere > Window > Extensions > PremiereCut \
 ![open_ext](https://github.com/Ronvaknins/PremiereCut/assets/48179479/b5067bd8-8f63-43df-a787-4f36fd2ec7e0)
 
+note: some computers don't allow unsigned extensions to enable them follow the instruction [here](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Client-side%20Debugging) in the "Set the Debug Mode"
 - Choose the CSV file using the "Choose File" button or by draging the file into the doted square \
 ![preview_image](https://github.com/Ronvaknins/PremiereCut/assets/48179479/23bc05ce-fe5a-4d13-82bc-fe87ccf47ea5)
 
@@ -37,7 +38,7 @@ after the install complete open **Adobe Premiere Pro** :
 the DB in this case is the CSV file will contain 3 columns: 
 - Video: {the name of the video file include the extension type}
 - TC_IN: {the timecode IN point}
-- TC_OUT: {the timecode OUT point}
+- TC_OUT: {the timecode OUT point} \
 (Donwload the CSV template from the github repo click [here](https://github.com/Ronvaknins/PremiereCut/blob/main/VideoScriptTemplate.csv)\
 \
 ![preview-image4](https://github.com/Ronvaknins/PremiereCut/assets/48179479/afd44c28-d900-4233-a35c-dc8a085cb572)
