@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <ExtensionList>
-  <Extension Id="com.cep.export.panel">
+  <Extension Id="com.cep.premierecut.panel">
     <HostList>
       <Host Name="PPRO" Port="8088" />
-
     </HostList>
   </Extension>
 </ExtensionList>
