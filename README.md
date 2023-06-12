@@ -8,7 +8,7 @@ PremiereCut is an Adobe Premiere extension that automatically cut the prime cuts
 with **PremiereCut** the video editor can save time that is wasted on building the base of the video article , instead of going to each video file and finding the IN point and OUT point then inserting it to a sequence he will import a CSV template file that the journalist will build the script in it, and will automatically build the base of the video article by marking the IN and OUT point of each file listed in the CSV file and inserting it to the current sequence in premiere.
 ## How to use?
 ### install through GitHub:
-**Windows:** [Install x64](https://localhost) \
+**Windows:** [Install x64 v1.0.0.0](https://github.com/Ronvaknins/PremiereCut/releases/tag/v1.0.0.0-win64bit) \
 or manually copy  [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to: \
 `C:\Program Files\Common Files\Adobe\CEP\extensions`
 
@@ -65,4 +65,6 @@ this will be filed by the video script writer.
 - https://ppro-scripting.docsforadobe.dev/
 - https://youtu.be/CnYDiWxShR4
 - https://fonts.google.com/specimen/Rubik+Glitch
+- https://youtu.be/Y9Ovo2XJHDs
+- https://jrsoftware.org/isinfo.php
 
