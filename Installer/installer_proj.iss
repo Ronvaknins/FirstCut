@@ -21,9 +21,12 @@ DefaultDirName=C:\Program Files\Common Files\Adobe\CEP\extensions\{#MyAppName}
 DisableDirPage=yes
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
+InfoAfterFile=C:\DEV\PremiereCut\PremiereCut-Extension\readme.txt
+VersionInfoVersion=1.0.0.0
+WizardImageFile=C:\DEV\PremiereCut\Logo\setup_logo.bmp
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputBaseFilename=PremiereCut-Install-1.0.0
+OutputBaseFilename=PremiereCut-Install-v1.0.0
 SetupIconFile=C:\DEV\PremiereCut\Logo\installer_icon.ico
 Compression=lzma
 SolidCompression=yes
