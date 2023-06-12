@@ -20,15 +20,17 @@ MacOS copy [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tre
 after the install complete open **Adobe Premiere Pro** :
 - Create new project
 - Import the videos RUSHES needed
-- Click on the top bar of premiere > Window > Extensions > PremiereCut 
-IMAGE_HERE
-- Choose the CSV file using the choose button or by draging the file into the doted square
-IMAGE_HERE
-- after seeing the confirm that that csv file selected click on the **Run** button
-IMAGE_HERE
-- if there's no error's the progress bar will be at 100% and you will see a message that it's done all tasks
-IMAGE_HERE
+- Click on the top bar of premiere > Window > Extensions > PremiereCut \
+![open_ext](https://github.com/Ronvaknins/PremiereCut/assets/48179479/b5067bd8-8f63-43df-a787-4f36fd2ec7e0)
 
+- Choose the CSV file using the "Choose File" button or by draging the file into the doted square \
+![preview_image](https://github.com/Ronvaknins/PremiereCut/assets/48179479/23bc05ce-fe5a-4d13-82bc-fe87ccf47ea5)
+
+- after seeing the confirm that that csv file selected click on the **"Run"** button \
+![preview-image2](https://github.com/Ronvaknins/PremiereCut/assets/48179479/3ca59a01-2766-41a4-8274-f4ef543d15c7) 
+
+- if there's no error's the progress bar will be at 100% and you will see a message that it's done all tasks \
+![preview-image3](https://github.com/Ronvaknins/PremiereCut/assets/48179479/cea429c8-2a85-4b8a-b4b2-a6f9c246492e)
 
 
 ## DataBase Format
@@ -42,12 +44,13 @@ the DB in this case is the CSV file will contain 3 columns:
 
 
 this will be filed by the video script writer.
-### the time code formated as [SMPTE Timecode](https://en.wikipedia.org/wiki/SMPTE_timecode) :
+### Timecode: the time code formated as [SMPTE Timecode](https://en.wikipedia.org/wiki/SMPTE_timecode) :
 | Hour  | Minutes | Seconds | Frames (in the range 0 to [fps-1]) |
 | ------------- | ------------- | ------------- | ------------- |
 | 00  | 00  | 00  | 00  |
 
-IMAGE HERE
+![timecode](https://github.com/Ronvaknins/PremiereCut/assets/48179479/136c7a59-57e8-47f4-94de-17f5c98ef1e8)
+
 
 ## Future ideas
 - [x] @@@@
