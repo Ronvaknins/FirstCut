@@ -182,7 +182,7 @@ function parseCSV(csv) {
 
 function customAlerts(msg,color) {
   // Get the snackbar DIV
-  var x = document.getElementById("snackbar");
+  var x = document.getElementById("toaster");
   x.innerHTML = msg;//insert custom message
   // Add the "show" class to DIV
   x.style.backgroundColor = color;//define the color of the background red means error
