@@ -9,7 +9,7 @@
 * source other than Adobe, then your use, modification, or distribution of it requires the prior
 * written permission of Adobe.
 *
-***************************************************************************************************/
+**************************************************************************************************/
 
 /** CSInterface - v7.0.0 */
 
