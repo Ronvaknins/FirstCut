@@ -1,5 +1,6 @@
 # FirstCut
-![PremiereCut_logo_bg](https://github.com/Ronvaknins/PremiereCut/assets/48179479/5e456a05-8de6-4b75-96d2-8b5cd444a2d8)
+![FirstCut_logo](https://github.com/Ronvaknins/FirstCut/assets/48179479/7481d16b-d5ac-4dc5-a729-b77289955ff1)
+
 
 
 
@@ -8,11 +9,11 @@ FirstCut for Adobe Premiere Pro will automatically cut the prime cuts from a vid
 with **FirstCut** the video editor can save time that is wasted on building the base of the video article , instead of going to each video file and finding the IN point and OUT point then inserting it to a sequence he will import a CSV template file that the journalist will build the script in it, and will automatically build the base of the video article by marking the IN and OUT point of each file listed in the CSV file and inserting it to the current sequence in premiere.
 ## How to use?
 ### install through GitHub:
-**Windows:** [Install x64 v1.0.0.0](https://github.com/Ronvaknins/PremiereCut/releases/tag/v1.0.0.0-win64bit) \
-or manually copy  [FirstCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to: \
+**Windows:** [Install x64 v1.0.0.0](https://github.com/Ronvaknins/FirstCut/releases/tag/v1.0.0.0-win64bit) \
+or manually copy  [FirstCut-Extension](https://github.com/Ronvaknins/FirstCut/tree/main/FirstCut-Extension) folder to: \
 `C:\Program Files\Common Files\Adobe\CEP\extensions`
 
-**MacOS:** copy [FirstCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to (can replace 2022 to other higher versions):\
+**MacOS:** copy [FirstCut-Extension](https://github.com/Ronvaknins/FirstCut/tree/main/FirstCut-Extension) folder to (can replace 2022 to other higher versions):\
 `/Applications/Adobe\ Premiere\ Pro\ 2022/Adobe\ Premiere\ Pro\ 2022.app/Contents/CEP/extensions/` 
 ### Install through Adobe Creative Cloud:
 **waiting for adobe to approve**
@@ -20,18 +21,25 @@ or manually copy  [FirstCut-Extension](https://github.com/Ronvaknins/PremiereCut
 after the install complete open **Adobe Premiere Pro** :
 - Create new project
 - Import the videos RUSHES needed
-- Click on the top bar of premiere > Window > Extensions > FirstCut \
-![open_ext](https://github.com/Ronvaknins/PremiereCut/assets/48179479/b5067bd8-8f63-43df-a787-4f36fd2ec7e0)
+- Click on the top bar of Adobe Premiere Pro > Window > Extensions > FirstCut \
+  \
+![image](https://github.com/Ronvaknins/FirstCut/assets/48179479/c461127e-0fbb-4939-afe8-8ece30fcfa31)
+
 
 note: some computers don't allow unsigned extensions to enable them follow the instruction [here](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Client-side%20Debugging) in the "Set the Debug Mode"
 - Choose the CSV file using the "Choose File" button or by draging the file into the doted square \
-![preview_image](https://github.com/Ronvaknins/PremiereCut/assets/48179479/23bc05ce-fe5a-4d13-82bc-fe87ccf47ea5)
+\
+![image](https://github.com/Ronvaknins/FirstCut/assets/48179479/43e91c20-f168-4e4d-b8e0-566abde9c151)
 
 - after seeing the confirm that that csv file selected click on the **"Run"** button \
-![preview-image2](https://github.com/Ronvaknins/PremiereCut/assets/48179479/3ca59a01-2766-41a4-8274-f4ef543d15c7) 
+  \
+![preview-image2](https://github.com/Ronvaknins/FirstCut/assets/48179479/479d42e7-1ee8-442e-a024-816f9f6c7d8e)
+
 
 - if there's no error's the progress bar will be at 100% and you will see a message that it's done all tasks \
-![preview-image3](https://github.com/Ronvaknins/PremiereCut/assets/48179479/cea429c8-2a85-4b8a-b4b2-a6f9c246492e)
+  \
+![image](https://github.com/Ronvaknins/FirstCut/assets/48179479/bbd341a7-7cfc-43b8-9e2b-e7114ddeae24)
+
 
 
 ## DataBase Format
