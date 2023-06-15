@@ -1,8 +1,8 @@
-PremiereCut is an Adobe Premiere extensions that automatically cut the prime cuts from a script provided by a scripter
+FirstCut for Adobe Premiere Pro will automatically cut the prime cuts from a video script provided by a scripter/journlist/etc.
 
-Instruction working with PremiereCut:
+Instruction working with FirstCut:
 
-https://github.com/Ronvaknins/PremiereCut/blob/main/README.md
+https://github.com/Ronvaknins/FirstCut/blob/main/README.md
 
 Author: Ron Vaknin
 Email: anylizerexe@gmail.com
