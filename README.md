@@ -1,18 +1,18 @@
-# PremiereCut
+# FirstCut
 ![PremiereCut_logo_bg](https://github.com/Ronvaknins/PremiereCut/assets/48179479/5e456a05-8de6-4b75-96d2-8b5cd444a2d8)
 
 
 
 
-PremiereCut is an Adobe Premiere extension that automatically cut the prime cuts from a video script provided by a scripter/journlist/etc., in some productions like news for example the video editor will receive a video script from the journalist that will contain the content of the video article , such as the selected cuts that the journalist picked (basically voice overs and not visuals), then the video editor will first build the base of the video article which is the selected cuts that journalist picked and afterward will start covering it with visuals and etc.\
-with **PremiereCut** the video editor can save time that is wasted on building the base of the video article , instead of going to each video file and finding the IN point and OUT point then inserting it to a sequence he will import a CSV template file that the journalist will build the script in it, and will automatically build the base of the video article by marking the IN and OUT point of each file listed in the CSV file and inserting it to the current sequence in premiere.
+FirstCut for Adobe Premiere Pro will automatically cut the prime cuts from a video script provided by a scripter/journlist/etc., in some productions like news for example the video editor will receive a video script from the journalist that will contain the content of the video article , such as the selected cuts that the journalist picked (basically voice overs and not visuals), then the video editor will first build the base of the video article which is the selected cuts that journalist picked and afterward will start covering it with visuals and etc.\
+with **FirstCut** the video editor can save time that is wasted on building the base of the video article , instead of going to each video file and finding the IN point and OUT point then inserting it to a sequence he will import a CSV template file that the journalist will build the script in it, and will automatically build the base of the video article by marking the IN and OUT point of each file listed in the CSV file and inserting it to the current sequence in premiere.
 ## How to use?
 ### install through GitHub:
 **Windows:** [Install x64 v1.0.0.0](https://github.com/Ronvaknins/PremiereCut/releases/tag/v1.0.0.0-win64bit) \
-or manually copy  [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to: \
+or manually copy  [FirstCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to: \
 `C:\Program Files\Common Files\Adobe\CEP\extensions`
 
-**MacOS:** copy [PremiereCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to (can replace 2022 to other higher versions):\
+**MacOS:** copy [FirstCut-Extension](https://github.com/Ronvaknins/PremiereCut/tree/main/PremiereCut-Extension) folder to (can replace 2022 to other higher versions):\
 `/Applications/Adobe\ Premiere\ Pro\ 2022/Adobe\ Premiere\ Pro\ 2022.app/Contents/CEP/extensions/` 
 ### Install through Adobe Creative Cloud:
 **waiting for adobe to approve**
@@ -20,7 +20,7 @@ or manually copy  [PremiereCut-Extension](https://github.com/Ronvaknins/Premiere
 after the install complete open **Adobe Premiere Pro** :
 - Create new project
 - Import the videos RUSHES needed
-- Click on the top bar of premiere > Window > Extensions > PremiereCut \
+- Click on the top bar of premiere > Window > Extensions > FirstCut \
 ![open_ext](https://github.com/Ronvaknins/PremiereCut/assets/48179479/b5067bd8-8f63-43df-a787-4f36fd2ec7e0)
 
 note: some computers don't allow unsigned extensions to enable them follow the instruction [here](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Client-side%20Debugging) in the "Set the Debug Mode"
