@@ -50,7 +50,8 @@ the DB in this case is the CSV file will contain 3 columns:
 - TC_OUT: {the timecode OUT point} \
 (Donwload the CSV template from the github repo click [here](https://github.com/Ronvaknins/FirstCut/blob/main/ScriptTemplate.csv)\
 \
-![preview-image4](https://github.com/Ronvaknins/PremiereCut/assets/48179479/afd44c28-d900-4233-a35c-dc8a085cb572)
+![preview-image4](https://github.com/Ronvaknins/FirstCut/assets/48179479/fb553c7f-37a1-4e7b-a1b7-3c17fdb73473)
+
 
 
 this will be filed by the video script writer.
@@ -59,7 +60,8 @@ this will be filed by the video script writer.
 | ------------- | ------------- | ------------- | ------------- |
 | 00  | 00  | 00  | 00  |
 
-![timecode](https://github.com/Ronvaknins/PremiereCut/assets/48179479/136c7a59-57e8-47f4-94de-17f5c98ef1e8)
+
+![timecode](https://github.com/Ronvaknins/FirstCut/assets/48179479/efc41e39-1b08-493e-a91a-16b720cb6e64)
 
 
 ## Future ideas
