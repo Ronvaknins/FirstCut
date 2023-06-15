@@ -47,7 +47,7 @@ the DB in this case is the CSV file will contain 3 columns:
 - Video: {the name of the video file include the extension type}
 - TC_IN: {the timecode IN point}
 - TC_OUT: {the timecode OUT point} \
-(Donwload the CSV template from the github repo click [here](https://github.com/Ronvaknins/PremiereCut/blob/main/VideoScriptTemplate.csv)\
+(Donwload the CSV template from the github repo click [here](https://github.com/Ronvaknins/FirstCut/blob/main/ScriptTemplate.csv)\
 \
 ![preview-image4](https://github.com/Ronvaknins/PremiereCut/assets/48179479/afd44c28-d900-4233-a35c-dc8a085cb572)
 
