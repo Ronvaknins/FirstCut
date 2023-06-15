@@ -1,5 +1,6 @@
 # FirstCut
-![FirstCut_logo](https://github.com/Ronvaknins/FirstCut/assets/48179479/7481d16b-d5ac-4dc5-a729-b77289955ff1)
+![FirstCut_logo_GitHub](https://github.com/Ronvaknins/FirstCut/assets/48179479/cdc3128d-7a45-4d78-9d91-989cbd7df528)
+
 
 
 
