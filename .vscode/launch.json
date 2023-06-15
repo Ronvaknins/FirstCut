@@ -8,7 +8,7 @@
             "type": "extendscript-debug",
             "request": "launch",
             "name": "Launch JSX",
-            "script":"${workspaceFolder}/PremiereCut-Extension/host/index.jsx",
+            "script":"${workspaceFolder}/FirstCut-Extension/host/index.jsx",
             "hostAppSpecifier": "premierepro-22.0"
         }
     ]

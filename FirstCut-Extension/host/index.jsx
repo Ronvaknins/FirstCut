@@ -85,8 +85,7 @@ function processScriptCuts(cut) {
 			break;
 		}
 	}
-	if(fileFound && tcInGood && tcOutGood)
-	{
+	if(fileFound && tcInGood && tcOutGood){
 		return [true,msg];
 	}else if(!fileFound){
 		return [false,"Video File: "+cut.Video +" not found"];

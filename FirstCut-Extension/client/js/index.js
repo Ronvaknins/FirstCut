@@ -21,40 +21,13 @@ function jsFriendlyJSONStringify (s) {
   }
 var csInterface = new CSInterface();
 
-/*
-  UI Elements
-*/
-// var buttonGroup = document.querySelector("#button-group");
 var runButton = document.querySelector("#run-btn");
-// var jpgButton = document.querySelector("#export-jpg");
-// var pngButton = document.querySelector("#export-png");
-// var originalButton = document.querySelector("#export-original");
-var finaldataArray = new Array();
-// /*
-//   Event listeners
-// */
-// runButton.addEventListener('click', function(){exportWithType('pdf');}, false);
-// jpgButton.addEventListener('click', function(){exportWithType('jpg');}, false);
-// pngButton.addEventListener('click', function(){exportWithType('png');}, false);
-// originalButton.addEventListener('click', function(){exportWithType();}, false);
-runButton.addEventListener('click', function(){
-  // console.log(typeof contents);
-  // console.log(typeof finaldataArray);
-  console.log("Running");
-  // alert(finaldataArray[0]);
-  finaldataArray.length == 0 ? customAlerts("Video Script csv file not chosen","red"):RunCut();
-  // if(finaldataArray.length == 0)
-  // {
-    
-  // }
-  // else{
-    
-  // }
-  // console.log(finaldataArray);
-  
-  
-  // csInterface.evalScript(`alert("${finaldataArray[0]}")`);
 
+var finaldataArray = new Array();
+
+runButton.addEventListener('click', function(){
+  console.log("Running");
+  finaldataArray.length == 0 ? customAlerts("Video Script csv file not chosen","red"):RunCut();
 }, false);
 
 async function RunCut() {
@@ -65,11 +38,10 @@ async function RunCut() {
     var status;
     document.getElementById("progress-container").style.visibility = "visible";
     fnameProcessing.innerHTML = "Processing " + finaldataArray[index].Video;
-    // console.log(JSON.stringify(finaldataArray[index]));
     await runEvalScript('processScriptCuts('+JSON.stringify(finaldataArray[index])+')').then(async function(res){
       //promise result should retrun string with true | false and a message if false in this struct "false,{error_msg}"
       status = await res;
-      // console.log(res);
+    
     });
     console.log(status);
     var barWidth = ((index+1) / numCuts)*100 + "%";
