@@ -10,7 +10,7 @@ the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTA
 OF ANY KIND, either express or implied. See the License for the specific language
 governing permissions and limitations under the License.
  -->
-<ExtensionManifest ExtensionBundleId="com.cep.firstcut" ExtensionBundleVersion="1.0.0" Version="11.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest ExtensionBundleId="com.cep.firstcut" ExtensionBundleVersion="1.0.0" Version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ExtensionList>
     <Extension Id="com.cep.firstcut.panel" Version="1.0.0" />
   </ExtensionList>
@@ -22,7 +22,7 @@ governing permissions and limitations under the License.
       <Locale Code="All" />
     </LocaleList>
     <RequiredRuntimeList>
-      <RequiredRuntime Name="CSXS" Version="11.0" />
+      <RequiredRuntime Name="CSXS" Version="7.0" />
     </RequiredRuntimeList>
   </ExecutionEnvironment>
   <DispatchInfoList>
