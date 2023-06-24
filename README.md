@@ -19,7 +19,7 @@ or manually copy  [FirstCut-Extension](https://github.com/Ronvaknins/FirstCut/tr
 ### Install through Adobe Creative Cloud:
 https://exchange.adobe.com/apps/cc/109823/firstcut
 
-after the install complete open **Adobe Premiere Pro** :
+after the install completed open **Adobe Premiere Pro** :
 - Create new project
 - Import the videos RUSHES needed
 - Click on the top bar of Adobe Premiere Pro > Window > Extensions > FirstCut \
