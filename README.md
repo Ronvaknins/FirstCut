@@ -17,7 +17,7 @@ or manually copy  [FirstCut-Extension](https://github.com/Ronvaknins/FirstCut/tr
 **MacOS:** copy [FirstCut-Extension](https://github.com/Ronvaknins/FirstCut/tree/main/FirstCut-Extension) folder to (can replace 2022 to other higher versions):\
 `/Applications/Adobe\ Premiere\ Pro\ 2022/Adobe\ Premiere\ Pro\ 2022.app/Contents/CEP/extensions/` 
 ### Install through Adobe Creative Cloud:
-**waiting for adobe to approve**
+https://exchange.adobe.com/apps/cc/109823/firstcut
 
 after the install complete open **Adobe Premiere Pro** :
 - Create new project
