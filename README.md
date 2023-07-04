@@ -8,6 +8,26 @@
 
 FirstCut for Adobe Premiere Pro will automatically cut the prime cuts from a video script provided by a scripter/journlist/etc., in some productions like news for example the video editor will receive a video script from the journalist that will contain the content of the video article , such as the selected cuts that the journalist picked (basically voice overs and not visuals), then the video editor will first build the base of the video article which is the selected cuts that journalist picked and afterward will start covering it with visuals and etc.\
 with **FirstCut** the video editor can save time that is wasted on building the base of the video article , instead of going to each video file and finding the IN point and OUT point then inserting it to a sequence he will import a CSV template file that the journalist will build the script in it, and will automatically build the base of the video article by marking the IN and OUT point of each file listed in the CSV file and inserting it to the current sequence in premiere.
+
+Introducing **FirstCut** for Adobe Premiere Pro! 
+Are you a video editor tired of spending precious time building the base of your video articles? Look no further – FirstCut is here to revolutionize your workflow and save you valuable hours.\
+With FirstCut, you can say goodbye to the manual process of locating IN and OUT points for each video file. Instead, you can now import a CSV template file, meticulously crafted by your journalist or scripter, to automatically generate the prime cuts of your video article.\
+
+Here's how it works:\
+• Receive a video script from your journalist containing the selected cuts for the article. These cuts primarily consist of voice-overs, providing you with a solid foundation to work with.\
+• Import the CSV template file into FirstCut. This file serves as your script, with each entry specifying the IN and OUT points for the respective video files.\
+• Sit back and watch as FirstCut performs its magic! The extension will automatically mark the IN and OUT points of each file listed in the CSV, seamlessly inserting them into your current Premiere Pro sequence.
+
+By automating this time-consuming process, FirstCut empowers you to focus on what truly matters – enhancing the video article with captivating visuals, transitions, effects, and more.
+
+Key benefits of FirstCut:\
+• Save Time: Eliminate the hassle of manually locating IN and OUT points for each video file. FirstCut automates the process, allowing you to build the base of your video article swiftly and efficiently.\
+• Streamlined Workflow: With FirstCut, you can seamlessly integrate the CSV template file into Adobe Premiere Pro, ensuring a smooth collaboration between journalists and video editors.\
+• Enhanced Creativity: By freeing up time spent on repetitive tasks, FirstCut empowers you to channel your energy into creative aspects of your work, resulting in captivating and engaging video articles.\
+• Boosted Productivity: With the accelerated workflow provided by FirstCut, you can take on more projects, meet tighter deadlines, and deliver exceptional results to your clients and audience.
+
+Ready to take your video editing game to the next level? Say goodbye to tedious manual work and hello to efficient collaboration with FirstCut for Adobe Premiere Pro.
+
 ## How to use?
 ### install through GitHub:
 **Windows:** [Install x64 v1.0.0.0](https://github.com/Ronvaknins/FirstCut/releases/tag/v1.0.0.0-win64bit) \
