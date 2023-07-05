@@ -11,7 +11,7 @@ with **FirstCut** the video editor can save time that is wasted on building the 
 
 Introducing **FirstCut** for Adobe Premiere Pro! 
 Are you a video editor tired of spending precious time building the base of your video articles? Look no further – FirstCut is here to revolutionize your workflow and save you valuable hours.\
-With FirstCut, you can say goodbye to the manual process of locating IN and OUT points for each video file. Instead, you can now import a CSV template file, meticulously crafted by your journalist or scripter, to automatically generate the prime cuts of your video article.\
+With FirstCut, you can say goodbye to the manual process of locating IN and OUT points for each video file. Instead, you can now import a CSV template file, meticulously crafted by your journalist or scripter, to automatically generate the prime cuts of your video article.
 
 Here's how it works:\
 • Receive a video script from your journalist containing the selected cuts for the article. These cuts primarily consist of voice-overs, providing you with a solid foundation to work with.\
